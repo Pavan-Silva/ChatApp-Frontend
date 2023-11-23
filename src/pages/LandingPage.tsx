@@ -16,7 +16,7 @@ function LandingPage() {
           <div className="hidden lg:block absolute w-72 h-72 rounded-full bg-dark-orange filter blur-2xl opacity-20 -mt-32 ml-28 animate-blob"></div>
           <div className="hidden lg:block absolute w-72 h-72 rounded-full bg-dark-orange filter blur-2xl opacity-20 mt-32 right-0 2xl:mr-96 xl:mr-40 animate-blob_rev"></div>
 
-          <div className="w-80 lg:w-auto">
+          <div className="hidden lg:block">
             <Mockup />
           </div>
 
@@ -34,14 +34,14 @@ function LandingPage() {
                 wrapper="h1"
                 speed={30}
                 repeat={Infinity}
-                className="hidden lg:block text-5xl font-bold text-white"
+                className="text-5xl font-bold text-white"
               />
 
-              <h1 className="hidden lg:block mb-0 text-4xl font-bold text-dark-orange">
+              <h1 className="mb-0 text-4xl font-bold text-dark-orange">
                 With AI Magic
               </h1>
 
-              <p className="hidden lg:block py-6">
+              <p className="py-6">
                 Elevate your communication with AI-driven chats,
                 <br className="hidden lg:block" /> available at your fingertips
                 whenever you need them.
