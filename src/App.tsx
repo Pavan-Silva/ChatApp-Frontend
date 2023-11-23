@@ -5,7 +5,7 @@ import ChatPage from "./pages/ChatPage";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/ChatApp-Frontend">
         <Routes>
           <Route path="/" Component={LandingPage} />
           <Route path="/chat" Component={ChatPage} />
