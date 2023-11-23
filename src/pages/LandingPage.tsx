@@ -34,10 +34,10 @@ function LandingPage() {
                 wrapper="h1"
                 speed={30}
                 repeat={Infinity}
-                className="text-4xl lg:text-5xl font-bold text-white"
+                className="hidden lg:block text-5xl font-bold text-white"
               />
 
-              <h1 className="mb-5 lg:mb-0 text-3xl lg:text-4xl font-bold text-dark-orange">
+              <h1 className="hidden lg:block mb-0 text-4xl font-bold text-dark-orange">
                 With AI Magic
               </h1>
 
