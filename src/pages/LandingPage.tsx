@@ -13,8 +13,8 @@ function LandingPage() {
 
       <div className="flex-grow hero">
         <div className="hero-content flex-col lg:flex-row-reverse -mt-28">
-          <div className="absolute w-72 h-72 rounded-full bg-dark-orange filter blur-2xl opacity-20 mr-14 lg:-mt-32 lg:ml-28 animate-blob"></div>
-          <div className="absolute w-72 h-72 rounded-full bg-dark-orange filter blur-2xl opacity-20 -mt-80 lg:mt-32 right-10 lg:right-0 2xl:mr-96 xl:mr-40 animate-blob_rev"></div>
+          <div className="hidden lg:block absolute w-72 h-72 rounded-full bg-dark-orange filter blur-2xl opacity-20 -mt-32 ml-28 animate-blob"></div>
+          <div className="hidden lg:block absolute w-72 h-72 rounded-full bg-dark-orange filter blur-2xl opacity-20 mt-32 right-0 2xl:mr-96 xl:mr-40 animate-blob_rev"></div>
 
           <div className="w-80 lg:w-auto">
             <Mockup />
@@ -34,10 +34,10 @@ function LandingPage() {
                 wrapper="h1"
                 speed={30}
                 repeat={Infinity}
-                className="text-4xl lg:text-5xl font-bold text-white"
+                className="hidden lg:block text-5xl font-bold text-white"
               />
 
-              <h1 className="mb-5 lg:mb-0 text-3xl lg:text-4xl font-bold text-dark-orange">
+              <h1 className="hidden lg:block mb-0 text-4xl font-bold text-dark-orange">
                 With AI Magic
               </h1>
 
