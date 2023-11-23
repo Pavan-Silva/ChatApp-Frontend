@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-[100svh] flex flex-col">
       <NotificationBar />
       <Navbar />
 

@@ -44,7 +44,7 @@ function Navbar() {
                   className={({ isActive }) =>
                     isActive ? "text-white bg-base-200" : ""
                   }
-                  to="/project"
+                  to="https://github.com/Pavan-Silva/ChatApp-Frontend"
                 >
                   Project
                 </NavLink>
@@ -59,7 +59,7 @@ function Navbar() {
                       className={({ isActive }) =>
                         isActive ? "text-white bg-base-200" : ""
                       }
-                      to="/source"
+                      to="https://github.com/Pavan-Silva/ChatApp-Frontend"
                     >
                       GitHub Repository
                     </NavLink>
@@ -70,7 +70,7 @@ function Navbar() {
                       className={({ isActive }) =>
                         isActive ? "text-white bg-base-200" : ""
                       }
-                      to="/docs"
+                      to="https://github.com/Pavan-Silva/ChatApp-Frontend"
                     >
                       Documentation
                     </NavLink>
@@ -83,7 +83,7 @@ function Navbar() {
                   className={({ isActive }) =>
                     isActive ? "text-white bg-base-200" : ""
                   }
-                  to="/safety"
+                  to="https://github.com/Pavan-Silva/ChatApp-Frontend"
                 >
                   Safety
                 </NavLink>
@@ -114,7 +114,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive ? "text-white bg-base-200" : ""
                 }
-                to="/project"
+                to="https://github.com/Pavan-Silva/ChatApp-Frontend"
               >
                 Project
               </NavLink>
@@ -130,7 +130,7 @@ function Navbar() {
                       className={({ isActive }) =>
                         isActive ? "text-white bg-base-200" : ""
                       }
-                      to="/source"
+                      to="https://github.com/Pavan-Silva/ChatApp-Frontend"
                     >
                       GitHub Repository
                     </NavLink>
@@ -141,7 +141,7 @@ function Navbar() {
                       className={({ isActive }) =>
                         isActive ? "text-white bg-base-200" : ""
                       }
-                      to="/docs"
+                      to="https://github.com/Pavan-Silva/ChatApp-Frontend"
                     >
                       Documentation
                     </NavLink>
@@ -155,7 +155,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive ? "text-white bg-base-200" : ""
                 }
-                to="/safety"
+                to="https://github.com/Pavan-Silva/ChatApp-Frontend"
               >
                 Safety
               </NavLink>

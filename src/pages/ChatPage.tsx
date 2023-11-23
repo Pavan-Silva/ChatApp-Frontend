@@ -37,7 +37,7 @@ function ChatPage() {
   }
 
   return (
-    <div className="drawer min-h-screen lg:drawer-open">
+    <div className="drawer min-h-[100svh] lg:drawer-open">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col items-center justify-center">
         <label
@@ -69,7 +69,7 @@ function ChatPage() {
           </div>
         )}
 
-        <div className="w-full max-w-2xl my-10 absolute bottom-16">
+        <div className="w-full max-w-2xl my-10 px-5 absolute bottom-16">
           {messages.map((message, index) => (
             <div key={index} className="chat chat-end animate-fade_fast">
               <div className="chat-bubble text-white">{message.content}</div>
